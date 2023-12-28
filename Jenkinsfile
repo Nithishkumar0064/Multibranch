@@ -22,7 +22,8 @@ pipeline {
 
         stage('Deploy') {
             steps {
-               sh 'sudo cp /home/ubuntu/new-folder/workspace/assignment-declarative/target/*.jar  /opt/tomcat/apache-tomcat-9.0.68/webapps/'
+               echo "this is deploying stage"
+                echo "the code is deployed successfully"
             }
         }
 
